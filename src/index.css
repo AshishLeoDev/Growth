@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(128.89deg, #ffb701d2 27.68%, #ff311ea4 99.41%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  background: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+}
+
+.Typewriter__wrapper, .Typewriter__cursor {
+  background: linear-gradient(146.69deg, #ffb701 8.85%, #ff341e 72.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: Kanit, sans-serif !important;
+}
+.youtube{
+  background: linear-gradient(146.69deg,#ffb701 8.85%,#ff341e 72.01%);
+  rotate: -4deg;
+}
+.youtube-tilt{
+  rotate: 4deg;
+}
+.hero-text{
+  background: linear-gradient(146.69deg,#ffb701 8.85%,#ff341e 72.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: Kanit,sans-serif!important;
+}
+
+.no-tilt {
+  background: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+  border-radius: 8px;
+  rotate: 2deg !important;
+}
+
+.unsplash {
+  background-image: url("https://source.unsplash.com/MxVkWPiJALs/");
+  aspect-ratio: 2/3; 
+}
+
+
+.video-tilt{
+  background: black;
+  border-radius: 10px;
+  rotate: 4deg;
+}
+.video{
+  background: linear-gradient(146.69deg,#ffb701 8.85%,#ff341e 72.01%);
+  rotate: 86deg;
+}
+
+.video-horizontal {
+  width: 493px;
+  height: 245px;
+  transform: rotate(-90deg);
+  top: 163px;
+  right: -88px;
+}
+
+.box-style{
+  background: linear-gradient(128.89deg,#ffb701 27.68%,#ff311e 99.41%);
+  right: 310px;
+  rotate: -6deg;
+  height: 76px;
+  top: 200px;
+}
+
+.gradient-tilt{
+  background: linear-gradient(128.89deg,#ffb701 27.68%,#ff311e 99.41%);
+}
+
+.theme:hover{
+  background: linear-gradient(128.89deg,#ffb701 27.68%,#ff311e 99.41%);
+  color: black;
+}
+
+.no-theme{
+  background-color: #0d0d0d;
+}
+.box-style-new{
+  background: linear-gradient(128.89deg,#ffb701 27.68%,#ff311e 99.41%);
+  top: 110px;
+  left: -5px;
+
+  rotate: -6deg;
+  height: 76px;
+}
+.link-for{
+  height: fit-content;
+}
