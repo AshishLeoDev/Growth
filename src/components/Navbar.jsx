@@ -12,13 +12,17 @@ const Navbar = () => {
           <img className="w-10 h-10 mt-3 ml-4" src={logo} alt="logo" />
         </Link>
       </div>
-        <ul className="flex gap-6 pt-3">
-          {navLinks.map((link) => (
-            <li className="text-xl font-[400] cursor-pointer p-1" key={link.id}>
-              <Link to={`#${link.id}`}>{link.title}</Link>
-            </li>
-          ))}
-        </ul>
+      <ul className="flex gap-6 pt-3">
+        {navLinks.map((link) => (
+          <li
+            className="text-xl font-[400] cursor-pointer p-1"
+            key={link.id}
+            onClick={link.handleClick}
+          >
+            <Link to={`${link.id}`}>{link.title}</Link>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 };

@@ -15,26 +15,29 @@ const About = () => {
               />
             </div>
           </div>
-          <Link className="link-for">
-            <div className="  px-4 py-2 w-[200px] text-center justify-center flex flex-col absolute tracking-tighter border border-orange-500  box-style-new text-black  rounded-xl -rotate-7">
-              <h4 className="font-extrabold rotate-1 px-2 text-lg">
-                Ayushman Pandita
-              </h4>
-              <div className="flex pl-2 font-extrabold rotate-1 text-lg">
-                <Link to={"https://www.youtube.com/"} className="px-2">
-                  <img
-                    src="https://www.growthrocket.media/_next/image?url=%2Fyoutube.png&w=16&q=75"
-                    alt=""
-                    className="w-[20px] h-[25px] pt-1"
-                  />
-                </Link>
-                <Link to={"https://www.instagram.com/"}>
-                  <i class="fa-brands fa-instagram"></i>
-                </Link>
-                <p className="pl-2">400,000+</p>
-              </div>
+
+          <div className="  px-4 py-2 w-[200px] text-center justify-center flex flex-col absolute tracking-tighter border border-orange-500  box-style-new text-black  rounded-xl -rotate-7">
+            <h4 className="font-extrabold rotate-1 px-2 text-lg">
+              Ayushman Pandita
+            </h4>
+            <div className="flex pl-2 font-extrabold rotate-1 text-lg">
+              <Link
+                target="_blank"
+                to={"https://www.youtube.com/"}
+                className="px-2"
+              >
+                <img
+                  src="https://www.growthrocket.media/_next/image?url=%2Fyoutube.png&w=16&q=75"
+                  alt=""
+                  className="w-[20px] h-[25px] pt-1"
+                />
+              </Link>
+              <Link target="_blank" to={"https://www.instagram.com/"}>
+                <i className="fa-brands fa-instagram"></i>
+              </Link>
+              <p className="pl-2">400,000+</p>
             </div>
-          </Link>
+          </div>
           <div className="w-full px-16">
             <h1 className="text-lg text-[#FF341D] font-bold font-kanit uppercase">
               MEET THE FOUNDER
@@ -53,12 +56,12 @@ const About = () => {
               success on Youtube, he launched his <br />
               Instagram account in August 2022 and scaled to 1 lakh followers in
               less <br /> than 4 months.
+            </p>
               <p className="pt-6 font-[400] leading-[1.85rem] text-xl">
                 Ayushman completed his BTech in Computer Science from IIITD in
                 2020. <br /> He previously worked as a Software Engineer at HSBC
                 and as a Product <br /> Manager at BharatPe.
               </p>
-            </p>
           </div>
         </div>
       </div>

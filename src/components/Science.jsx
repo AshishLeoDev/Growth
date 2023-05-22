@@ -1,9 +1,9 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { Link } from "react-router-dom";
 
 const Science = () => {
   return (
-    <section className="w-full flex relative max-w-[1220px] mt-10 mx-auto px-8 py-3">
+    <section id="science" className="w-full flex relative max-w-[1220px] mt-10 mx-auto px-8 py-3">
       <div className="min-w-[60%]">
         <h6 className="font-bold text-2xl font-kanit tracking-tight">
           We create content that is a

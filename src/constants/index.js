@@ -1,20 +1,22 @@
 export const navLinks = [
   {
-    id: "home",
+    id: "/",
     title: "Home",
+    handleClick: ()=>{document.getElementById('hero')?.scrollIntoView({behavior:'smooth'})}
   },
   {
     id: 'amplify-growth',
-    title: 'Amplify Growth'
+    title: 'Amplify Growth',
+    handleClick: ()=>{document.getElementById('science')?.scrollIntoView({behavior:'smooth'})}
   },
   {
     id: 'services',
-    title: 'Our Services'
-  },
+    title: 'Our Services',
+    handleClick: ()=>{document.getElementById('services')?.scrollIntoView({behavior:'smooth'})}  },
   {
     id: 'contact',
-    title: "Contact Us"
-  }
+    title: "Contact Us",
+    handleClick: ()=>{document.getElementById('contact')?.scrollIntoView({behavior:'smooth'})}  }
 ];
 
  export const services = [
